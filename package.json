@@ -1,0 +1,25 @@
+{
+  "name": "listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-evm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index-evm.js",
+    "backend": "nohup node index-evm.js &",
+    "indexer": "nohup node listener-evm.js &"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.91.4",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.1",
+    "mongoose": "^7.3.1"
+  },
+  "type":"module" 
+}

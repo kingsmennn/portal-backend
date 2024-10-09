@@ -5,9 +5,7 @@
   "main": "index-evm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index-evm.js",
-    "backend": "nohup node index-evm.js &",
-    "indexer": "nohup node listener-evm.js &"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +19,5 @@
     "express": "^4.21.1",
     "mongoose": "^7.3.1"
   },
-  "type":"module" 
+  "type": "module"
 }

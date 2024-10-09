@@ -39,6 +39,9 @@ function connectWithRetry() {
 
 connectWithRetry();
 
+app.get("/", async (req, res) => {
+  return res.json({ success: true });
+});
 app.post("/api/payment/:requestId", async (req, res) => {
   try {
     connectWithRetry();
